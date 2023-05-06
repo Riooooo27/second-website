@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-size: 1080px 720px;
+    height: 100%;
+    font-family: archivo, arial;
+    background-color: #0e0b16;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}

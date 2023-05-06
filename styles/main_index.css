@@ -1,0 +1,42 @@
+main {
+    position: fixed;
+    padding: 100px 100px 100px 100px 100px;
+    left: 0;
+    right: 0;
+    top: 74px;
+    bottom: 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.pp-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile h1 {
+    font-size: 50px;
+    color: white;
+    align-items: center;
+}
+
+.contant-container {
+    display: flex;
+    justify-content: center;
+}
+
+.soc-link img {
+    height: 50px;
+    border-radius: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}

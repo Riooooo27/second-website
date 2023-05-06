@@ -1,0 +1,53 @@
+main {
+    position: relative;
+    display: flex;
+    top: 74px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.profile {
+    display: flex;
+}
+
+.my-pp img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.my-desc h1, .my-desc p {
+    color: white;
+}
+
+.my-desc {
+    width: 600px;
+    background-color: #a239ca;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    main {
+        padding-left: 75px;
+        padding-right: 75px;
+        display: block;
+        text-align: center;
+    }
+
+    .profile {
+        display: block;
+        text-align: center;
+    }
+
+    .my-desc {
+        width: 600px;
+        background-color: #a239ca;
+        padding: 20px 30px;
+        border-radius: 5px;
+        display: block;
+        margin: 20px auto;
+    }
+}
